@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "Superior Brands" %></title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -17,6 +19,46 @@
   </head>
 
   <body class="<%= page_classes %>">
+
+    <nav>
+      <div class="container">
+        <i class="fa fa-bars" id="toggleNav"></i>
+        <% link_to '/', :class=>'site-id' do %>
+          <%= image_tag 'http://placehold.it/80x32' %>
+          <h2>Logo Text</h2>
+        <% end %>
+        <ul class="parent-nav">
+          <li><%= link_to 'About', 'javascript:void(0);' %></li>
+          <li>
+            <%= link_to 'Material Handling', 'javascript:void(0);' %>
+            <ul class="sub-nav">
+              <li><%= link_to 'Twisted O-Rings', 'javascript:void(0);' %></li>
+              <li><%= link_to 'Polyurethane O-Rings', 'javascript:void(0);' %></li>
+              <li><%= link_to 'Quick Connect Bolts', 'javascript:void(0);' %></li>
+              <li><%= link_to 'Spools', 'javascript:void(0);' %></li>
+            </ul>
+          </li>
+          <li>
+            <%= link_to 'Plastic Bag Industry', 'javascript:void(0);' %>
+            <ul class="sub-nav">
+              <li><%= link_to 'Wicketer Belts', 'javascript:void(0);' %></li>
+              <li><%= link_to 'Flat Cotton Belting', 'javascript:void(0);' %></li>
+              <li><%= link_to 'Drag Brakes', 'javascript:void(0);' %></li>
+            </ul>
+          </li>
+          <li>
+            <%= link_to 'Textile Industry', 'javascript:void(0);' %>
+            <ul class="sub-nav">
+              <li><%= link_to 'Arnold Machine Belts', 'javascript:void(0);' %></li>
+              <li><%= link_to 'Identification Bands', 'javascript:void(0);' %></li>
+              <li><%= link_to 'Woolen Twister Head Bands', 'javascript:void(0);' %></li>
+            </ul>
+          </li>
+        </ul>
+        <%= link_to 'Contact', 'javascript:void(0);', :class=>'nav-cta' %>
+      </div>
+    </nav>
+
     <%= yield %>
   </body>
 </html>

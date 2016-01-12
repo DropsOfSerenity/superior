@@ -1,3 +1,14 @@
+$green: #87A878;
+$dark-green: #5E6F56;
+$grey: #F4F1F2;
+
+$primary: $green;
+$secondary: $dark-green;
+
 @import 'vendor/0-dir';
 @import 'modules/0-dir';
 @import 'layouts/0-dir';
+
+body {
+	font-family:'Open Sans', sans-serif;
+}
