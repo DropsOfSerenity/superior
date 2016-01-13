@@ -1,0 +1,24 @@
+.l-about-history {
+	h3 {
+		text-align: center;
+	}	
+	h5 {
+		text-align: center;
+		font-style: italic;
+		margin-bottom: 25px;
+	}
+}
+
+.l-about-quote {
+	background-color: $secondary;
+	color: #fff;
+	padding: 55px 0;
+	text-align: center;
+	p {
+		font-style: italic;
+	}
+	h5 {
+		font-size: 18px;
+		margin: 25px 0 0 0;
+	}
+}
