@@ -20,6 +20,7 @@ nav {
 	height: $nav-height;
 	text-align: center;
 	position: relative;
+	z-index: 9001;
 	.container {
 		height: 100%;
 	}
