@@ -3339,38 +3339,39 @@ nav {
   background-color: #F4F1F2;
   height: 60px;
   text-align: center;
-  position: relative; }
-  /* line 23, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+  position: relative;
+  z-index: 9001; }
+  /* line 24, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
   nav .container {
     height: 100%; }
-  /* line 26, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+  /* line 27, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
   nav a {
     color: #333;
     transition: all 0.2s ease-out; }
-    /* line 29, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 30, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav a:active, nav a:hover {
       text-decoration: none; }
-  /* line 33, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+  /* line 34, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
   nav .site-id {
     position: absolute;
     left: 0;
     top: 50%;
     height: 32px;
     margin-top: -16px; }
-    /* line 39, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 40, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .site-id img, nav .site-id h2 {
       float: left; }
-    /* line 42, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 43, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .site-id img {
       width: auto;
       display: inline-block; }
-    /* line 46, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 47, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .site-id h2 {
       display: inline-block;
       line-height: 30px;
       margin: 0 0 0 10px;
       font-size: 18px; }
-  /* line 53, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+  /* line 54, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
   nav .nav-cta {
     position: absolute;
     right: 0;
@@ -3384,29 +3385,29 @@ nav {
     padding: 12px 25px;
     top: 50%;
     margin-top: -17px; }
-    /* line 66, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 67, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .nav-cta:hover {
       background-color: #6a7d61; }
   @media (max-width: 660px) {
-    /* line 71, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 72, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .nav-cta {
       display: none; }
-    /* line 74, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 75, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav a.site-id {
       left: 50%;
       margin-left: -40px; }
-      /* line 77, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 78, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav a.site-id h2 {
         display: none; } }
   @media (min-width: 661px) and (max-width: 1019px) {
-    /* line 83, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 84, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav a.site-id {
       left: 75px; }
-      /* line 85, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 86, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav a.site-id h2 {
         display: none; } }
   @media (max-width: 1019px) {
-    /* line 91, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 92, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav i#toggleNav {
       position: absolute;
       display: block;
@@ -3418,10 +3419,10 @@ nav {
       width: 60px;
       box-shadow: -1px 0 #ddd inset;
       font-size: 14px; }
-    /* line 103, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 104, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .nav-cta {
       right: 10px; }
-    /* line 106, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 107, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav ul.parent-nav {
       list-style-type: none;
       padding: 0;
@@ -3435,63 +3436,63 @@ nav {
       background-color: rgba(0, 0, 0, 0.7);
       text-align: left;
       display: none; }
-      /* line 119, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 120, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.parent-nav ul {
         list-style-type: none;
         padding: 0;
         margin: 0;
         background-color: rgba(0, 0, 0, 0.175);
         box-shadow: 0 -1px rgba(0, 0, 0, 0.1) inset; }
-        /* line 126, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+        /* line 127, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
         nav ul.parent-nav ul li a {
           padding: 10px 15px 10px 30px; }
-          /* line 128, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+          /* line 129, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
           nav ul.parent-nav ul li a:hover, nav ul.parent-nav ul li a:active {
             background-color: rgba(0, 0, 0, 0.1); }
-      /* line 134, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 135, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.parent-nav li {
         width: 100%; }
-        /* line 136, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+        /* line 137, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
         nav ul.parent-nav li a {
           display: block;
           padding: 10px 15px;
           color: #fff;
           box-shadow: 0 1px rgba(0, 0, 0, 0.1) inset; }
-          /* line 141, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+          /* line 142, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
           nav ul.parent-nav li a:hover, nav ul.parent-nav li a:active {
             color: #fff;
             text-decoration: none;
             background-color: rgba(250, 250, 250, 0.04); } }
   @media (min-width: 1020px) {
-    /* line 151, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 152, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav i#toggleNav {
       display: none; }
-    /* line 154, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 155, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .container {
       position: relative;
       max-width: 1200px; }
-    /* line 158, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 159, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav ul.parent-nav {
       list-style-type: none;
       margin: 0; }
-      /* line 161, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 162, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.parent-nav > li {
         display: inline-block; }
-        /* line 163, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+        /* line 164, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
         nav ul.parent-nav > li:hover, nav ul.parent-nav > li:active {
           background-color: rgba(0, 0, 0, 0.05); }
-          /* line 165, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+          /* line 166, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
           nav ul.parent-nav > li:hover ul.sub-nav, nav ul.parent-nav > li:active ul.sub-nav {
             display: block; }
-          /* line 168, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+          /* line 169, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
           nav ul.parent-nav > li:hover a, nav ul.parent-nav > li:active a {
             color: #333; }
-        /* line 172, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+        /* line 173, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
         nav ul.parent-nav > li > a {
           line-height: 60px;
           padding: 0 12px;
           display: inline-block; }
-    /* line 179, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 180, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav ul.sub-nav {
       display: none;
       width: 100%;
@@ -3503,7 +3504,7 @@ nav {
       list-style-type: none;
       color: #fff;
       background-color: rgba(0, 0, 0, 0.8); }
-      /* line 190, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 191, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.sub-nav:before {
         content: "";
         position: absolute;
@@ -3513,7 +3514,7 @@ nav {
         width: 150%;
         background-color: rgba(0, 0, 0, 0.8);
         display: block; }
-      /* line 200, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 201, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.sub-nav:after {
         content: "";
         position: absolute;
@@ -3523,17 +3524,17 @@ nav {
         width: 150%;
         background-color: rgba(0, 0, 0, 0.8);
         display: block; }
-      /* line 210, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 211, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.sub-nav li {
         display: inline-block; }
-      /* line 213, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 214, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.sub-nav a {
         color: #fff !important;
         padding: 0 12px;
         line-height: 30px;
         display: inline-block;
         height: 100%; }
-        /* line 219, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+        /* line 220, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
         nav ul.sub-nav a:hover {
           background-color: rgba(250, 250, 250, 0.1);
           box-shadow: none; } }
