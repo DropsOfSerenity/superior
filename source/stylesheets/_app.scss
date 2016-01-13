@@ -1,9 +1,11 @@
 $green: #87A878;
 $dark-green: #5E6F56;
+$brown: #A49E8D;
 $grey: #F4F1F2;
 
 $primary: $green;
 $secondary: $dark-green;
+$tertiary: $brown;
 
 @import 'vendor/0-dir';
 @import 'modules/0-dir';
@@ -26,8 +28,90 @@ body {
 	left: 0;
 	display: block;
 	z-index: 2;
+	transition: all 0.2 ease-in-out;
 	&.black {
 		background-color: #000;
 		opacity: 0.5;
+	}
+}
+
+.u-btn {
+	display: inline-block;
+	background-color: #ddd;
+	color: #333;
+	border-radius: 5px;
+	padding: 12px 25px;
+	text-align: center;
+	line-height: 10.66px;
+	font-size: 14px;
+	margin: 5px 0 15px 0;
+	transition: all 0.2s ease-in-out;
+	&:hover, &:active {
+		text-decoration: none;
+		color: #333;
+	}
+	&.u-btn-lg {
+		font-size: 18px;
+		line-height: 18px;
+		font-weight: bold;
+		padding: 18px 35px;
+	}
+	&.trans-black {
+		border: 2px solid #333;
+		color: #333;
+		background: none;
+		&:hover {
+			border-color: #444;
+			color: #444;
+		}
+	}
+	&.black {
+		background-color: #333;
+		color: #fff;
+		&:hover, &:active {
+			color: #fff;
+			background-color: lighten(#333, 7);
+		}
+	}
+}
+
+.u-panel {
+	position: relative;
+	display: block;
+	padding: 95px 45px;
+	text-align: center;
+	transition: all 0.2 ease-in-out;
+	background-size: cover;
+	-webkit-background-size: cover;
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+		.u-screen.black {
+			opacity: 0.2;
+		}
+	}
+	p {
+		padding: 12px 25px;
+		color: #fff;
+		border: 3px solid #fff;
+		position: relative;
+		z-index: 2;
+		margin: 0;
+		font-size: 18px;
+		font-weight: bold;
+	}
+}
+
+.m-cta {
+	padding: 45px 0;
+	text-align: center;
+	background-color: $tertiary;
+	h4 {
+		font-size: 24px;
+		font-weight: bold;
+		margin: 0 0 25px 0;
+	}
+	a {
+		margin-bottom: 0;
 	}
 }
