@@ -1,0 +1,54 @@
+.ezt-nav {
+	list-style-type: none;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 25px;
+	li {
+		display: block;
+		margin: 0 0 0 -5px;
+	}
+	a {
+		display: block;
+		padding: 8px 12px;
+		background-color: #fff;
+		color: $secondary;
+		transition: all 0.2s ease-in-out;
+		&:hover, &:active, &:focus {
+			background-color: $primary;
+			text-decoration: none;
+			color: #fff;
+		}
+		&.ezt-active {
+  		color: #fff;
+  		background-color: $secondary;
+		}
+	}
+	@media (min-width:768px) {
+		border-radius: 5px;
+		li {
+			display: inline-block;
+			&:last-of-type a {
+				border-top: 2px solid $secondary;
+				border-right: 2px solid $secondary;
+				border-bottom: 2px solid $secondary;
+				border-radius: 0 5px 5px 0;
+			}
+			&:first-of-type a {
+				border-top: 2px solid $secondary;
+				border-left: 2px solid $secondary;
+				border-bottom: 2px solid $secondary;
+				border-radius: 5px 0 0 5px;
+			}
+		}
+		a {
+			border-top: 2px solid $secondary;
+			border-bottom: 2px solid $secondary;
+		}
+	}
+}
+.ezt-content {
+  display: none;
+}
+.ezt-active {
+  display: block;
+}
