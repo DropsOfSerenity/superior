@@ -49,6 +49,12 @@ nav {
 			line-height: $nav-height / 2;
 			margin: 0 0 0 10px;
 			font-size: 18px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: $primary;
+		}
+		&:hover h2 {
+			color: $secondary;
 		}
 	}
 	.nav-cta {
@@ -74,9 +80,12 @@ nav {
 		}
 		a.site-id {
 			left: 50%;
-			margin-left: -40px;
-			h2 {
+			margin-left: -88px;
+			img {
 				display: none;
+			}
+			h2 {
+				width: 178px;	
 			}
 		}
 	}
@@ -84,7 +93,7 @@ nav {
 		a.site-id {
 			left: $nav-height + ($nav-height / 4);
 			h2 {
-				display: none;
+				
 			}
 		}
 	}

@@ -23,6 +23,20 @@ label {
 	font-weight: bold;
 }
 
+a {
+	h3 {
+		color: #333;
+		text-decoration: none;
+	}
+	&:hover,  {
+		text-decoration: none;
+	}
+}
+
+h4 {
+	font-weight: bold;
+}
+
 img {
 	width: 100%;
 }
@@ -87,8 +101,17 @@ p {
 		color: #333;
 		background: none;
 		&:hover {
-			border-color: #444;
-			color: #444;
+			border-color: #222;
+			color: #222;
+		}
+	}
+	&.trans-white {
+		border: 2px solid rgba(250,250,250,0.8);
+		color: rgba(250,250,250,0.8);
+		background: none;
+		&:hover {
+			border-color: #fff;
+			color: #fff;
 		}
 	}
 	&.black {
