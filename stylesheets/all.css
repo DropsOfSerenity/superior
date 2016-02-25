@@ -3448,12 +3448,13 @@ nav {
       font-weight: bold;
       text-transform: uppercase;
       letter-spacing: 0.07em;
+      font-weight: 300;
       color: #333;
       transition: all 0.2s ease-out; }
-    /* line 58, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 59, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .site-id:hover h2 {
       color: #000; }
-  /* line 62, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+  /* line 63, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
   nav .nav-cta {
     position: absolute;
     right: 0;
@@ -3471,29 +3472,29 @@ nav {
     padding: 12px 25px;
     top: 50%;
     margin-top: -17px; }
-    /* line 79, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 80, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .nav-cta:hover {
       background-color: #a3c8ac; }
   @media (max-width: 660px) {
-    /* line 84, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 85, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .nav-cta {
       display: none; }
-    /* line 87, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 88, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav a.site-id {
       left: 50%;
       margin-left: -88px; }
-      /* line 90, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 91, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav a.site-id img {
         display: none; }
-      /* line 93, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 94, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav a.site-id h2 {
         width: 178px; } }
   @media (min-width: 661px) and (max-width: 1019px) {
-    /* line 99, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 100, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav a.site-id {
       left: 75px; } }
   @media (max-width: 1019px) {
-    /* line 107, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 108, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav i#toggleNav {
       position: absolute;
       display: block;
@@ -3505,10 +3506,10 @@ nav {
       width: 60px;
       box-shadow: -1px 0 #ddd inset;
       font-size: 14px; }
-    /* line 119, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 120, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .nav-cta {
       right: 10px; }
-    /* line 122, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 123, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav ul.parent-nav {
       list-style-type: none;
       padding: 0;
@@ -3522,64 +3523,64 @@ nav {
       background-color: rgba(0, 0, 0, 0.7);
       text-align: left;
       display: none; }
-      /* line 135, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 136, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.parent-nav ul {
         list-style-type: none;
         padding: 0;
         margin: 0;
         background-color: rgba(0, 0, 0, 0.175);
         box-shadow: 0 -1px rgba(0, 0, 0, 0.1) inset; }
-        /* line 142, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+        /* line 143, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
         nav ul.parent-nav ul li a {
           padding: 10px 15px 10px 30px; }
-          /* line 144, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+          /* line 145, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
           nav ul.parent-nav ul li a:hover, nav ul.parent-nav ul li a:active {
             background-color: rgba(0, 0, 0, 0.1); }
-      /* line 150, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 151, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.parent-nav li {
         width: 100%; }
-        /* line 152, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+        /* line 153, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
         nav ul.parent-nav li a {
           display: block;
           padding: 10px 15px;
           color: #fff;
           box-shadow: 0 1px rgba(0, 0, 0, 0.1) inset; }
-          /* line 157, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+          /* line 158, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
           nav ul.parent-nav li a:hover, nav ul.parent-nav li a:active {
             color: #fff;
             text-decoration: none;
             background-color: rgba(250, 250, 250, 0.04); } }
   @media (min-width: 1020px) {
-    /* line 167, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 168, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav i#toggleNav {
       display: none; }
-    /* line 170, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 171, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .container {
       position: relative;
       max-width: 1200px; }
-    /* line 174, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 175, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav ul.parent-nav {
       list-style-type: none;
       margin: 0;
       letter-spacing: 0.05em; }
-      /* line 178, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 179, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.parent-nav > li {
         display: inline-block; }
-        /* line 180, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+        /* line 181, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
         nav ul.parent-nav > li:hover, nav ul.parent-nav > li:active {
           background-color: rgba(0, 0, 0, 0.05); }
-          /* line 182, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+          /* line 183, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
           nav ul.parent-nav > li:hover ul.sub-nav, nav ul.parent-nav > li:active ul.sub-nav {
             display: block; }
-          /* line 185, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+          /* line 186, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
           nav ul.parent-nav > li:hover a, nav ul.parent-nav > li:active a {
             color: #333; }
-        /* line 189, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+        /* line 190, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
         nav ul.parent-nav > li > a {
           line-height: 60px;
           padding: 0 12px;
           display: inline-block; }
-    /* line 196, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+    /* line 197, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav ul.sub-nav {
       display: none;
       width: 100%;
@@ -3595,7 +3596,7 @@ nav {
       list-style-type: none;
       color: #fff;
       background-color: #40362E; }
-      /* line 211, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 212, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.sub-nav:before {
         content: "";
         position: absolute;
@@ -3605,7 +3606,7 @@ nav {
         width: 150%;
         background-color: #40362E;
         display: block; }
-      /* line 221, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 222, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.sub-nav:after {
         content: "";
         position: absolute;
@@ -3615,34 +3616,34 @@ nav {
         width: 150%;
         background-color: #40362E;
         display: block; }
-      /* line 231, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 232, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.sub-nav li {
         display: inline-block; }
-      /* line 234, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+      /* line 235, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
       nav ul.sub-nav a {
         color: #fff !important;
         padding: 0 12px;
         line-height: 30px;
         display: inline-block;
         height: 100%; }
-        /* line 240, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+        /* line 241, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
         nav ul.sub-nav a:hover {
           background-color: rgba(250, 250, 250, 0.1);
           box-shadow: none; } }
 
-/* line 249, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+/* line 250, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
 body.about nav ul.parent-nav > li:nth-of-type(1) {
   font-weight: bold; }
 
-/* line 252, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+/* line 253, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
 body.material-handling nav ul.parent-nav > li:nth-of-type(2) {
   font-weight: bold; }
 
-/* line 255, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+/* line 256, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
 body.plastic-bag-industry nav ul.parent-nav > li:nth-of-type(3) {
   font-weight: bold; }
 
-/* line 258, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
+/* line 259, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
 body.textile-industry nav ul.parent-nav > li:nth-of-type(4) {
   font-weight: bold; }
 
