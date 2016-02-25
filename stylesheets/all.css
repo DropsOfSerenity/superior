@@ -4012,7 +4012,7 @@ p {
   .u-btn.block {
     display: block;
     margin: 10px auto 25px auto;
-    max-width: 240px; }
+    max-width: 320px; }
   /* line 122, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .u-btn.trans-black {
     border: 1px solid #333;
@@ -4142,7 +4142,7 @@ p {
   background-color: #f3f3f3; }
   /* line 249, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .l-more-links .container {
-    max-width: 760px; }
+    max-width: 970px; }
 
 /* line 255, /Users/chief/work/superior/source/stylesheets/_app.scss */
 .l-root-tab-body h4 {
