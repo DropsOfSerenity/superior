@@ -13,7 +13,7 @@
 
 nav {
 	$logo-height: 32px;
-	$nav-bg: $grey;
+	$nav-bg: #fff;
 	$nav-height: 60px;
 	//
 	background-color: $nav-bg;
@@ -51,10 +51,12 @@ nav {
 			font-size: 18px;
 			font-weight: bold;
 			text-transform: uppercase;
-			color: $primary;
+			letter-spacing: 0.07em;
+			color: #333;
+			transition: all 0.2s ease-out;
 		}
 		&:hover h2 {
-			color: $secondary;
+			color: #000;
 		}
 	}
 	.nav-cta {
@@ -64,14 +66,18 @@ nav {
 		top: 50%;
 		margin-top: -($logo-height/3)/2;
 		border-radius: 5px;
-		background-color: $secondary;
+		background-color: $primary;
 		color: #fff;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 12px;
+		letter-spacing: 0.1em;
 		display: inline-block;
 		padding: 12px 25px;
 		top: 50%;
 		margin-top: -17px;
 		&:hover {
-			background-color: lighten($secondary, 5);
+			background-color: lighten($primary, 5);
 		}
 	}
 	@media (max-width:660px) {
@@ -168,6 +174,7 @@ nav {
 		ul.parent-nav {
 			list-style-type: none;
 			margin:0;
+			letter-spacing: 0.05em;
 			& > li {
 				display: inline-block;
 				&:hover, &:active {
@@ -194,9 +201,13 @@ nav {
 			padding: 0;
 			left: 0;
 			margin: 0;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			font-weight: bold;
+			font-size: 12px;
 			list-style-type: none;
 			color: #fff;
-			background-color: rgba(0,0,0,0.8);
+			background-color: $secondary;
 			&:before {
 				content: "";
 				position: absolute;
@@ -204,7 +215,7 @@ nav {
 				top: 0;
 				height: 100%;
 				width: 150%;
-				background-color: rgba(0,0,0,0.8);
+				background-color: $secondary;
 				display: block;
 			}
 			&:after {
@@ -214,7 +225,7 @@ nav {
 				top: 0;
 				height: 100%;
 				width: 150%;
-				background-color: rgba(0,0,0,0.8);
+				background-color: $secondary;
 				display: block;
 			}
 			li {
@@ -233,4 +244,17 @@ nav {
 			}
 		}
 	}
+}
+
+body.about nav ul.parent-nav > li:nth-of-type(1) {
+	font-weight: bold;
+}
+body.material-handling nav ul.parent-nav > li:nth-of-type(2) {
+	font-weight: bold;
+}
+body.plastic-bag-industry nav ul.parent-nav > li:nth-of-type(3) {
+	font-weight: bold;
+}
+body.textile-industry nav ul.parent-nav > li:nth-of-type(4) {
+	font-weight: bold;
 }
