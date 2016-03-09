@@ -3405,7 +3405,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     display: block; }
   /* line 6, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
   body.open i#toggleNav {
-    color: #93BF9E;
+    color: #105118;
     background-color: #f5f5f5;
     box-shadow: -1px 0 #ccc inset, 0 4px rgba(0, 0, 0, 0.1) inset; } }
 /* line 14, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
@@ -3462,7 +3462,7 @@ nav {
     top: 50%;
     margin-top: -5.33333px;
     border-radius: 5px;
-    background-color: #93BF9E;
+    background-color: #105118;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
@@ -3474,7 +3474,7 @@ nav {
     margin-top: -17px; }
     /* line 80, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .nav-cta:hover {
-      background-color: #a3c8ac; }
+      background-color: #14661e; }
   @media (max-width: 660px) {
     /* line 85, /Users/chief/work/superior/source/stylesheets/modules/_nav.scss */
     nav .nav-cta {
@@ -3758,7 +3758,7 @@ body.textile-industry nav ul.parent-nav > li:nth-of-type(4) {
 .l-home-message {
   text-align: center;
   color: #fff;
-  background-color: #40362E; }
+  background-color: #222; }
   /* line 117, /Users/chief/work/superior/source/stylesheets/layouts/_home.scss */
   .l-home-message h3 {
     font-size: 32px;
@@ -3852,7 +3852,7 @@ footer {
 
 /* line 5, /Users/chief/work/superior/source/stylesheets/layouts/_contact.scss */
 .l-contact-form-area {
-  background-color: #93BF9E;
+  background-color: #105118;
   color: #fff; }
   /* line 8, /Users/chief/work/superior/source/stylesheets/layouts/_contact.scss */
   .l-contact-form-area h3 {
@@ -3875,14 +3875,14 @@ form {
     display: block;
     box-sizing: border-box;
     width: 100%;
-    border: 1px solid #7db28a;
+    border: 1px solid #0a330f;
     max-width: 100%;
     padding: 5px;
     border-radius: 3px;
     color: #333; }
     /* line 33, /Users/chief/work/superior/source/stylesheets/layouts/_contact.scss */
     form input[type="text"]:active, form input[type="text"]:focus, form input[type="email"]:active, form input[type="email"]:focus, form textarea:active, form textarea:focus {
-      border-color: #73ac81;
+      border-color: #08260b;
       box-shadow: none;
       -webkit-appearance: none;
       outline: none; }
@@ -3967,7 +3967,7 @@ p {
   /* line 72, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .u-screen.black {
     background-color: #000;
-    opacity: 0.5; }
+    opacity: 0.2; }
 
 /* line 78, /Users/chief/work/superior/source/stylesheets/_app.scss */
 .u-round {
@@ -4036,14 +4036,30 @@ p {
       color: #333; }
   /* line 142, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .u-btn.black {
-    background-color: #93BF9E;
+    background-color: #105118;
     color: #fff; }
     /* line 145, /Users/chief/work/superior/source/stylesheets/_app.scss */
     .u-btn.black:hover, .u-btn.black:active {
       color: #fff;
-      background-color: #a9ccb2; }
+      background-color: #166f21; }
 
 /* line 152, /Users/chief/work/superior/source/stylesheets/_app.scss */
+.u-video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative; }
+  /* line 158, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  .u-video-wrapper embed,
+  .u-video-wrapper object,
+  .u-video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+/* line 169, /Users/chief/work/superior/source/stylesheets/_app.scss */
 .u-panel {
   position: relative;
   display: block;
@@ -4052,14 +4068,14 @@ p {
   transition: all 0.2 ease-in-out;
   background-size: cover;
   -webkit-background-size: cover; }
-  /* line 160, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 177, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .u-panel:hover {
     text-decoration: none;
     color: #fff; }
-    /* line 163, /Users/chief/work/superior/source/stylesheets/_app.scss */
+    /* line 180, /Users/chief/work/superior/source/stylesheets/_app.scss */
     .u-panel:hover .u-screen.black {
       opacity: 0.2; }
-  /* line 167, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 184, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .u-panel p {
     padding: 12px 25px;
     color: #fff;
@@ -4070,85 +4086,85 @@ p {
     font-size: 18px;
     font-weight: bold; }
 
-/* line 179, /Users/chief/work/superior/source/stylesheets/_app.scss */
+/* line 196, /Users/chief/work/superior/source/stylesheets/_app.scss */
 .m-title {
-  background-color: #93BF9E;
+  background-color: #105118;
   padding: 45px 0; }
-  /* line 182, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 199, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .m-title h1 {
     text-align: center;
     margin: 0;
     color: #fff; }
 
-/* line 189, /Users/chief/work/superior/source/stylesheets/_app.scss */
+/* line 206, /Users/chief/work/superior/source/stylesheets/_app.scss */
 .m-point {
   margin: 15px 0;
   text-align: center; }
-  /* line 192, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 209, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .m-point img {
     border-radius: 50%;
     margin: 0 auto 25px auto;
     display: block;
     max-width: 200px; }
-  /* line 198, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 215, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .m-point h4 {
     font-weight: bold; }
-  /* line 201, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 218, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .m-point h5 {
     font-style: italic; }
-    /* line 203, /Users/chief/work/superior/source/stylesheets/_app.scss */
+    /* line 220, /Users/chief/work/superior/source/stylesheets/_app.scss */
     .m-point h5 span {
       font-weight: bold;
       display: block;
       margin-top: 8px;
       font-style: normal; }
-  /* line 210, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 227, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .m-point a.social {
     color: #777;
     font-size: 36px; }
-    /* line 213, /Users/chief/work/superior/source/stylesheets/_app.scss */
+    /* line 230, /Users/chief/work/superior/source/stylesheets/_app.scss */
     .m-point a.social:hover, .m-point a.social:active {
       text-decoration: none;
-      color: #93BF9E; }
+      color: #105118; }
 
-/* line 220, /Users/chief/work/superior/source/stylesheets/_app.scss */
+/* line 237, /Users/chief/work/superior/source/stylesheets/_app.scss */
 .m-cta {
   padding: 45px 0;
   text-align: center;
   background-color: #8C8474;
   color: #fff; }
-  /* line 225, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 242, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .m-cta h4 {
     font-size: 24px;
     font-weight: bold;
     margin: 0 auto 25px auto;
     max-width: 480px;
     line-height: 1.6; }
-  /* line 232, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 249, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .m-cta a {
     margin-bottom: 0; }
 
-/* line 237, /Users/chief/work/superior/source/stylesheets/_app.scss */
+/* line 254, /Users/chief/work/superior/source/stylesheets/_app.scss */
 .m-list {
   list-style-type: none;
   font-weight: bold;
   margin: 25px 0;
   padding: 0; }
-  /* line 242, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 259, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .m-list li {
     margin-bottom: 12px; }
 
-/* line 247, /Users/chief/work/superior/source/stylesheets/_app.scss */
+/* line 264, /Users/chief/work/superior/source/stylesheets/_app.scss */
 .l-more-links {
   background-color: #f3f3f3; }
-  /* line 249, /Users/chief/work/superior/source/stylesheets/_app.scss */
+  /* line 266, /Users/chief/work/superior/source/stylesheets/_app.scss */
   .l-more-links .container {
     max-width: 970px; }
 
-/* line 255, /Users/chief/work/superior/source/stylesheets/_app.scss */
+/* line 272, /Users/chief/work/superior/source/stylesheets/_app.scss */
 .l-root-tab-body h4 {
   font-weight: bold; }
-/* line 258, /Users/chief/work/superior/source/stylesheets/_app.scss */
+/* line 275, /Users/chief/work/superior/source/stylesheets/_app.scss */
 .l-root-tab-body a.u-btn {
   max-width: 220px; }
 /*
