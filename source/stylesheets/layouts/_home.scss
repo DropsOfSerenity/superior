@@ -28,6 +28,12 @@
 		.slick-slide {
 			position: relative;
 			overflow: hidden;
+			&:nth-of-type(3) {
+				img {
+					width: 125%;
+					left: -12.5%;
+				}
+			}
 		}
 		ul.slick-dots {
 			position: absolute;
