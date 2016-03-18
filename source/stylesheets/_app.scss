@@ -68,7 +68,7 @@ p {
 	left: 0;
 	display: block;
 	z-index: 2;
-	transition: all 0.2 ease-in-out;
+	transition: all 0.2s ease-out;
 	&.black {
 		background-color: #000;
 		opacity: 0.2;
